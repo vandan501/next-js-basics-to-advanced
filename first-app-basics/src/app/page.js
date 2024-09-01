@@ -22,7 +22,24 @@ export default function Home() {
         >
           My Account Page
         </Link>
-
+        <Link
+        className="p-4 cursor-pointer  bg-blue-500  h-[60px] text-white font-bold"
+        href={"client-data-fetch"}
+      >
+        Client Side Data Fetch
+      </Link>
+      <Link
+      className="p-4 cursor-pointer  bg-blue-500  h-[60px] text-white font-bold"
+      href={"/server-data-fetch"}
+    >
+      Server Side Data Fetch
+    </Link>
+    <Link
+    className="p-4 cursor-pointer  bg-blue-500  h-[60px] text-white font-bold"
+    href={"/client-data-fetch-swr"}
+  >
+    Client Side Data Fetch using SWR
+  </Link>
         <Link
           className="p-4 cursor-pointer  bg-blue-500 w-[170px] h-[60px] text-white font-bold"
           href={"/profile/details"}
